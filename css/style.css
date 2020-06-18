@@ -1,0 +1,159 @@
+.header-wrapper {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.header-wrapper p {
+    margin: 20px 0;
+}
+    
+
+.header-list {
+    display: flex;
+}
+
+.header-list li {
+    font-size: 10px;
+    margin: 20px 30px 20px 0;
+}
+
+.main-wrapper {
+    background-image: url(main-vsual-nontitle.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.main-container {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 40px;
+    display: block;
+    padding-top: 100px;
+    line-height: 50px;
+}
+
+.main-subtitle {
+    font-size: 15px;
+    display: block;
+    padding: 50px 0 100px 0;
+    line-height: 25px;
+}
+
+.contents-wrapper {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    padding: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contents-container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.contents-img {
+    width: 48%;
+}
+
+.contents-img-photo {
+    max-width: 100%;
+}
+
+.contents-subtitle {
+    font-weight: normal;
+    display: inline-block;
+    text-align: left;
+    line-height: 20px;
+    width: 48%;
+    font-size: 15px;
+}
+
+.course-wrapper {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.course-list {
+    width: 30%;
+}
+
+.course-list-img img {
+    max-width: 100%;
+}
+
+.course-list-subtitle {
+    text-align: left;
+    margin: 5px 0 10px 0;
+    font-size: 15px;
+}
+
+.message-wrapper {
+    width: 960px;
+    margin: auto;
+    text-align: center;   
+}
+
+.message-subtitle {
+    font-size: 15px;
+}
+
+.message-text {
+    display: block;
+    width: 500px;
+    border: solid 2px;
+    border-color:  #eeeeee;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 2px auto 10px auto;
+    padding: 10px 0 10px 5px;
+}
+
+.message-btn {
+    display: block;
+    width: 350px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#FA8072;
+    color: white;
+    margin: 10px auto 50px auto;
+    padding: 10px 0 10px 0;
+    border: none;
+}
+
+.footer-wrapper {
+    border-top: solid 1px;
+    border-color:  #eeeeee;
+    width: 960px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.footer-text {
+    width: 100%;
+    font-size: 12px;
+    text-align: right;
+    padding: 20px 0 30px 0;
+}
